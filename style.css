@@ -13,21 +13,21 @@
     grid-area: first;
     border: 1px solid #000000;
     background-color: #baca44;
-    padding: 50px;
+    padding: 110px;
 }
 
 .second_one {
     grid-area: second_one;
     border: 1px solid #000000;
     background-color: #eeeed2;
-    padding: 50px;
+    padding:  110px;
 }
 
 .second_two {
     grid-area: second_two;
     border: 1px solid #000000;
     background-color: #eeeed2;
-    padding: 50px;
+    padding: 110px;
 }
 
 
@@ -35,34 +35,34 @@
     grid-area: third_two;
     border: 1px solid #000000;
     background-color: #eeeed2;
-    padding: 50px;
+    padding: 110px;
 }
 
 .third_three {
     grid-area: third_three;
     border: 1px solid #000000;
     background-color: #eeeed2;
-    padding: 50px;
+    padding: 40px;
 }
 
 .fourth_one {
     grid-area: fourth_one;
     border: 1px solid #000000;
     background-color: #baca44;
-    padding: 50px;
+    padding: 40px;
 }
 
 .fourth_two {
     grid-area: fourth_two;
     border: 1px solid #000000;
     background-color: #baca44;
-    padding: 50px;
+    padding: 40px;
 }
 
 .fourth_three {
     grid-area: fourth_three;
     border: 1px solid #000000;
     background-color: #baca44;
-    padding: 50px;
+    padding: 40px;
 }
 
