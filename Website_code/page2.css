@@ -36,13 +36,16 @@
     border: 1px solid #000000;
     background-color: #089000;
     padding: 100px;
+    font-size: 13px;
 }
 
 .third_two {
     grid-area: third_two;
     border: 1px solid #000000;
     background-color: #089000;
-    padding: 100px;
+    padding: 100px; 
+    font-size: 13px;
+    
 }
 
 .third_three {
@@ -50,6 +53,7 @@
     border: 1px solid #000000;
     background-color: #089000;
     padding: 100px;
+    font-size: 13px;
 }
 
 .fourth_one {
