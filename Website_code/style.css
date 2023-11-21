@@ -23,13 +23,13 @@ a {
     background-color: #8a785d;
     padding: 40px;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
 }
 
 .sixth_one {
     grid-area: sixth_one;
     border: 1px solid #000000;
-    background-color: #eeeed2;
+    background-color: #fff;
     text-align: center;
     padding: 50px;
 }
@@ -37,7 +37,7 @@ a {
 .second_one {
     grid-area: second_one;
     border: 1px solid #000000;
-    background-color: #eeeed2;
+    background-color: #fff;
     text-align: center;
     padding:  50px;
 }
@@ -45,7 +45,7 @@ a {
 .second_two {
     grid-area: second_two;
     border: 1px solid #000000;
-    background-color: #eeeed2;
+    background-color: #fff;
     text-align: center;
     padding: 50px;
 }
@@ -53,7 +53,7 @@ a {
 .third_three {
     grid-area: third_three;
     border: 1px solid #000000;
-    background-color: #eeeed2;
+    background-color: #fff;
     text-align: center;
     padding: 50px;
 }
