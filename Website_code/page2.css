@@ -31,7 +31,7 @@ a {
 .sixth_one {
     grid-area: sixth_one;
     border: 1px solid #000000;
-    background-color: #eeeed2;
+    background-color: #fff;
     padding: 50px;
     text-align: center;
 }
@@ -39,7 +39,7 @@ a {
 .sixth_two {
     grid-area: sixth_two;
     border: 1px solid #000000;
-    background-color: #eeeed2;
+    background-color: #fff;
     padding: 50px;
     text-align: center;
 }
@@ -47,7 +47,7 @@ a {
 .sixth_three {
     grid-area: sixth_three;
     border: 1px solid #000000;
-    background-color: #eeeed2;
+    background-color: #fff;
     padding: 50px;
     text-align: center;
 }
@@ -55,7 +55,7 @@ a {
 .sixth_four {
     grid-area: sixth_four;
     border: 1px solid #000000;
-    background-color: #eeeed2;
+    background-color: #fff;
     padding: 50px;
     text-align: center;
 }
@@ -98,7 +98,7 @@ a {
 .fourth_one {
     grid-area: fourth_one;
     border: 1px solid #000000;
-    background-color: #eeeed2;
+    background-color: #fff;
     padding: 50px;
 }
 
