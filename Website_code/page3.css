@@ -1,105 +1,107 @@
 .container {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     grid-template-areas:
         "first first first first"
-        "sixth_one sixth_two sixth_three sixth_four"
+        "third_one third_two third_three sixth_one"
         "second_one second_one second_two second_two"
-        "third_one third_two third_two third_three"
-        "fourth_one fourth_one fourth_one fourth_one"
+        "fourth_one fourth_one fourth_two fourth_two"
+        "fourth_three fourth_three fourth_three fourth_four"
         "fifth_one fifth_one fifth_one fifth_one"
         ;
-        font-family: 'Courier New', Courier, monospace; 
+        font-family: 'Courier New', Courier, monospace;
         font-size: 20px;
         text-align: justify;
-    }
- 
+
+}
+
 a {
             color: #000;
           }
-
+ 
 .first {
     grid-area: first;
     border: 1px solid #000000;
-    background-color: #8a785d;
     padding: 40px;
+    background-color: #8a785d;
     color: #fff;
     text-align: center;
 }
  
+.third_one {
+    grid-area: third_one;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #eeeed2;
+    text-align: center;
+}
+
+.third_two {
+    grid-area: third_two;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #eeeed2;
+    text-align: center;
+}
+
+.third_three {
+    grid-area: third_three;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #eeeed2;
+    text-align: center;
+}
+
 .sixth_one {
     grid-area: sixth_one;
     border: 1px solid #000000;
-    background-color: #eeeed2;
     padding: 50px;
-    text-align: center;
-}
-
-.sixth_two {
-    grid-area: sixth_two;
-    border: 1px solid #000000;
     background-color: #eeeed2;
-    padding: 50px;
-    text-align: center;
-}
-
-.sixth_three {
-    grid-area: sixth_three;
-    border: 1px solid #000000;
-    background-color: #eeeed2;
-    padding: 50px;
-    text-align: center;
-}
-
-.sixth_four {
-    grid-area: sixth_four;
-    border: 1px solid #000000;
-    background-color: #eeeed2;
-    padding: 50px;
     text-align: center;
 }
 
 .second_one {
     grid-area: second_one;
     border: 1px solid #000000;
+    padding: 50px;
     background-color: #fff;
-    padding: 30px;
 }
 
 .second_two {
     grid-area: second_two;
     border: 1px solid #000000;
-    background-color: #fff;
-    padding: 40px;
-}
-
-.third_one {
-    grid-area: third_one;
-    border: 1px solid #000000;
-    background-color: #fff;
     padding: 50px;
-}
-
-.third_two {
-    grid-area: third_two;
-    border: 1px solid #000000;
     background-color: #fff;
-    padding: 50px; 
-}
-
-.third_three {
-    grid-area: third_three;
-    border: 1px solid #000000;
-    background-color: #fff;
-    padding: 35px;
 }
 
 .fourth_one {
     grid-area: fourth_one;
     border: 1px solid #000000;
-    background-color: #eeeed2;
+    padding: 120px;
+    background-color: #fff;
+    text-align: justify;
+}
+
+.fourth_two {
+    grid-area: fourth_two;
+    border: 1px solid #000000;
     padding: 50px;
+    background-color: #fff;    
+}
+
+.fourth_three {
+    grid-area: fourth_three;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.fourth_four {
+    grid-area: fourth_four;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #fff;
 }
 
 .fifth_one {
@@ -111,4 +113,3 @@ a {
     color: #fff;
     font-size: 10px;
 }
-

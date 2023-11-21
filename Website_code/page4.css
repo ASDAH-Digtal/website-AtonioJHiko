@@ -1,0 +1,103 @@
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-areas:
+    "first first first first"
+    "third_one third_two third_three sixth_one"
+    "second_one second_one second_one second_one"
+    "fourth_one fourth_two fourth_two fourth_three"
+    "fourth_one fourth_two fourth_two fourth_three"
+    "fourth_four fourth_four fourth_four fourth_four"
+    ;
+    font-family: 'Courier New', Courier, monospace;   
+    font-size: 20px;
+    text-align: justify;
+}
+ 
+a {
+        color: #000;
+      }
+
+.first {
+    grid-area: first;
+    border: 1px solid #000000;
+    padding: 40px;
+    background-color: #8a785d;
+    color: #fff;
+    text-align: center;
+}
+
+.third_one {
+    grid-area: third_one;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #eeeed2;
+    color: #fff;    
+    text-align: center;
+}
+
+.third_two {
+    grid-area: third_two;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #eeeed2;
+    text-align: center;
+}
+
+.third_three {
+    grid-area: third_three;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #eeeed2;
+    text-align: center;
+}
+
+.sixth_one {
+    grid-area: sixth_one;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #eeeed2;
+    text-align: center;
+}
+
+.second_one {
+    grid-area: second_one;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.fourth_one {
+    grid-area: fourth_one;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.fourth_two {
+    grid-area: fourth_two;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.fourth_three {
+    grid-area: fourth_three;
+    border: 1px solid #000000;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.fourth_four {
+    grid-area: fourth_four;
+    border: 1px solid #000000;
+    background-color: #8a785d;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+}
+
